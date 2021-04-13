@@ -160,7 +160,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="5dp"
         android:textColor="@color/red"
-        android:textSize="25sp"
+        android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnOrder" />
 
