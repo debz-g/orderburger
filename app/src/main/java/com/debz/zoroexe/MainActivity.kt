@@ -31,6 +31,10 @@ class MainActivity : AppCompatActivity() {
                     (if(onions) "\n Onions" else "") +
                     "\n\nYou preferred payment method is : ${payment.text}"
             binding.tvOrder.text=orderString
+            
+            val layout = layoutInflater.inflate(R.layout.custom_toast,clToast)
+            binding.btnToast.setOnClickListener(){
+            }
         }
     }
 }
